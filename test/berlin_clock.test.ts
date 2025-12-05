@@ -1,8 +1,9 @@
+import { getSingleMinutesRow } from '../src/berlin_clock';
 describe('Berlin Clock', () => {
     it("should return '0000' for 0 minutes", () => {
-        expect('0000').toBe('0000');
+        expect(getSingleMinutesRow).toBe('0000');
     });
-    it("should return '1000' for 1 minutes", () => {
+    /*it("should return '1000' for 1 minutes", () => {
         expect('1000').toBe('1000');
     });
     it("should return '1100' for 2 minutes", () => {
@@ -13,7 +14,7 @@ describe('Berlin Clock', () => {
     });
     it("should return '1111' for 4 minutes", () => {
         expect('1111').toBe('1111');
-    });
+    });*/
 
 
     /*it("should return 1 for seconds pair", () => {
