@@ -19,8 +19,8 @@ describe('Berlin Clock', () => {
         expect(getSingleMinutesRow(5)).toBe('0000');
     });
 
-    it("should return '0000' for 0 minutes", () => {
-        expect(getFiveMinutesRow(0)).toBe('0000');
+    it("should return '00000000000' for 0 minutes", () => {
+        expect(getFiveMinutesRow(0)).toBe('00000000000');
     });
 
     /*it("should return 1 for seconds pair", () => {

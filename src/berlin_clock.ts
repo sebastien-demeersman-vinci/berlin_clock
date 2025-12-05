@@ -4,5 +4,5 @@ export function getSingleMinutesRow(minutes: number): string {
 };
 
 export function getFiveMinutesRow(minutes: number): string {
-    return "0000";
+    return '00000000000';
 }
