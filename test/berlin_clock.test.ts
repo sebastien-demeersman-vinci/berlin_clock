@@ -1,4 +1,4 @@
-import { getSingleMinutesRow } from '../src/berlin_clock';
+import { getFiveMinutesRow, getSingleMinutesRow } from '../src/berlin_clock';
 describe('Berlin Clock', () => {
     it("should return '0000' for 0 minutes", () => {
         expect(getSingleMinutesRow(0)).toBe('0000');
@@ -19,6 +19,9 @@ describe('Berlin Clock', () => {
         expect(getSingleMinutesRow(5)).toBe('0000');
     });
 
+    it("should return '0000' for 0 minutes", () => {
+        expect(getFiveMinutesRow(0)).toBe('0000');
+    });
 
     /*it("should return 1 for seconds pair", () => {
         expect('1').toBe('1');
