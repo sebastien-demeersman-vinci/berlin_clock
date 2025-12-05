@@ -1,7 +1,7 @@
 import { getSingleMinutesRow } from '../src/berlin_clock';
 describe('Berlin Clock', () => {
     it("should return '0000' for 0 minutes", () => {
-        expect(getSingleMinutesRow).toBe('0000');
+        expect(getSingleMinutesRow(0)).toBe('0000');
     });
     /*it("should return '1000' for 1 minutes", () => {
         expect('1000').toBe('1000');
