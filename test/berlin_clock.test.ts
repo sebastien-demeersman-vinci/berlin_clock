@@ -12,9 +12,9 @@ describe('Berlin Clock', () => {
     it("should return '1110' for 3 minutes", () => {
         expect(getSingleMinutesRow(3)).toBe('1110');
     });
-    /*it("should return '1111' for 4 minutes", () => {
-        expect('1111').toBe('1111');
-    });*/
+    it("should return '1111' for 4 minutes", () => {
+        expect(getSingleMinutesRow(4)).toBe('1111');
+    });
 
 
     /*it("should return 1 for seconds pair", () => {

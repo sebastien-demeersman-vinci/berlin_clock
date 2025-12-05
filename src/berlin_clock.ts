@@ -6,5 +6,7 @@ export function getSingleMinutesRow(minutes: number): string {
         return '1100';
     if (singleMinutes == 3)
         return '1110';
+    if (singleMinutes == 4)
+        return '1111';
     return '0000';
 };
