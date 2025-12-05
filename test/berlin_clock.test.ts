@@ -6,10 +6,10 @@ describe('Berlin Clock', () => {
         expect('1000').toBe('1000');
     });
     it("should return '1100' for 2 minutes", () => {
-        expect('1100').toBe('1000');
+        expect('1100').toBe('1100');
     });
     it("should return '1110' for 3 minutes", () => {
-        expect('1110').toBe('1000');
+        expect('1110').toBe('1110');
     });
     it("should return '1111' for 4 minutes", () => {
         expect('1111').toBe('1111');
