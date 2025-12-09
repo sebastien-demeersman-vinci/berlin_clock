@@ -23,6 +23,10 @@ describe('Berlin Clock', () => {
         expect(getFiveMinutesRow(0)).toBe('00000000000');
     });
 
+    it("should return '10000000000' for 5 minutes", () => {
+        expect(getFiveMinutesRow(5)).toBe('10000000000');
+    });
+
     /*it("should return 1 for seconds pair", () => {
         expect('1').toBe('1');
     });
